@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="91" id="KGk-i7-Jjw" customClass="HomeCell" customModule="Calculators_All" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="423" height="84"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="423" height="84"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OeX-kP-Ilh">
+                        <rect key="frame" x="16" y="12" width="391" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discount Calculator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8a-mN-679">
+                                <rect key="frame" x="74" y="19" width="301" height="22.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXi-Iv-aWc">
+                                <rect key="frame" x="2" y="2" width="56" height="56"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_discount" translatesAutoresizingMaskIntoConstraints="NO" id="pcI-ra-gjy">
+                                        <rect key="frame" x="10.5" y="10.5" width="35" height="35"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="35" id="YTe-GZ-vDO"/>
+                                            <constraint firstAttribute="height" constant="35" id="kuN-V2-nMj"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="pcI-ra-gjy" firstAttribute="centerX" secondItem="xXi-Iv-aWc" secondAttribute="centerX" id="6TP-ge-EoV"/>
+                                    <constraint firstItem="pcI-ra-gjy" firstAttribute="centerY" secondItem="xXi-Iv-aWc" secondAttribute="centerY" id="7W7-xA-FA8"/>
+                                    <constraint firstAttribute="width" constant="56" id="NKn-Tp-408"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="28"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="v8a-mN-679" firstAttribute="centerY" secondItem="OeX-kP-Ilh" secondAttribute="centerY" id="2cJ-ip-0uF"/>
+                            <constraint firstAttribute="bottom" secondItem="xXi-Iv-aWc" secondAttribute="bottom" constant="2" id="BhC-b6-3dN"/>
+                            <constraint firstItem="xXi-Iv-aWc" firstAttribute="leading" secondItem="OeX-kP-Ilh" secondAttribute="leading" constant="2" id="OrV-Er-bYe"/>
+                            <constraint firstItem="v8a-mN-679" firstAttribute="leading" secondItem="xXi-Iv-aWc" secondAttribute="trailing" constant="16" id="VbJ-Dn-5Zq"/>
+                            <constraint firstAttribute="height" constant="60" id="cH7-n9-J8k"/>
+                            <constraint firstItem="xXi-Iv-aWc" firstAttribute="top" secondItem="OeX-kP-Ilh" secondAttribute="top" constant="2" id="kUE-lZ-D0k"/>
+                            <constraint firstAttribute="trailing" secondItem="v8a-mN-679" secondAttribute="trailing" constant="16" id="zBQ-pU-A4g"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="OeX-kP-Ilh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="0WO-8l-Vmf"/>
+                    <constraint firstItem="OeX-kP-Ilh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="1gX-gn-8hg"/>
+                    <constraint firstAttribute="bottom" secondItem="OeX-kP-Ilh" secondAttribute="bottom" constant="12" id="fQv-TS-vuy"/>
+                    <constraint firstAttribute="trailing" secondItem="OeX-kP-Ilh" secondAttribute="trailing" constant="16" id="sdi-r1-HnC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgIcon" destination="pcI-ra-gjy" id="wqd-bE-dld"/>
+                <outlet property="lblTitle" destination="v8a-mN-679" id="5Nr-yR-2TJ"/>
+                <outlet property="viewBack" destination="OeX-kP-Ilh" id="mUo-Z3-Mv1"/>
+                <outlet property="viewImage" destination="xXi-Iv-aWc" id="czN-Ah-XnI"/>
+            </connections>
+            <point key="canvasLocation" x="206.52173913043481" y="118.52678571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_discount" width="100" height="100"/>
+    </resources>
+</document>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="CompoundIntrestCell" customModule="SIP_Calculator" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="408" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zlg-IW-Kpa">
+                        <rect key="frame" x="0.0" y="0.0" width="408" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boo-dV-FaF">
+                                <rect key="frame" x="8" y="13" width="34.5" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="34.5" id="7dY-LF-qYL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xqi-BI-jyH">
+                                <rect key="frame" x="50.5" y="0.0" width="1" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="XIq-GA-tdZ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWd-IE-bux">
+                                <rect key="frame" x="63.5" y="13" width="80" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="xVc-Wa-NQP"/>
+                                </constraints>
+                                <string key="text">Year Interest
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffr-9Z-Z44">
+                                <rect key="frame" x="147.5" y="0.0" width="1" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="gxL-5C-rph"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SO1-a7-kYS">
+                                <rect key="frame" x="160.5" y="13" width="90" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="9BS-aD-ubu"/>
+                                </constraints>
+                                <string key="text">Total Interest	</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJo-NP-eT3">
+                                <rect key="frame" x="250.5" y="0.0" width="1" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="tQt-qU-4UL"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mcf-9M-7Dp">
+                                <rect key="frame" x="263.5" y="13" width="54.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7HP-l6-1Oz">
+                                <rect key="frame" x="0.0" y="43" width="408" height="1"/>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="4tZ-BE-mIW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TWd-IE-bux" firstAttribute="centerY" secondItem="zlg-IW-Kpa" secondAttribute="centerY" id="9mr-mi-2h9"/>
+                            <constraint firstItem="7HP-l6-1Oz" firstAttribute="leading" secondItem="zlg-IW-Kpa" secondAttribute="leading" id="Ail-xE-Yrs"/>
+                            <constraint firstItem="boo-dV-FaF" firstAttribute="leading" secondItem="zlg-IW-Kpa" secondAttribute="leading" constant="8" id="DFy-fx-GMn"/>
+                            <constraint firstItem="xqi-BI-jyH" firstAttribute="top" secondItem="zlg-IW-Kpa" secondAttribute="top" id="J0m-bR-XI5"/>
+                            <constraint firstAttribute="trailing" secondItem="7HP-l6-1Oz" secondAttribute="trailing" id="JkW-hF-Tj8"/>
+                            <constraint firstAttribute="bottom" secondItem="xqi-BI-jyH" secondAttribute="bottom" id="Jw7-k7-lIs"/>
+                            <constraint firstItem="boo-dV-FaF" firstAttribute="centerY" secondItem="zlg-IW-Kpa" secondAttribute="centerY" id="LDb-cM-w9u"/>
+                            <constraint firstItem="SO1-a7-kYS" firstAttribute="leading" secondItem="ffr-9Z-Z44" secondAttribute="trailing" constant="12" id="Nsy-My-2lJ"/>
+                            <constraint firstItem="TWd-IE-bux" firstAttribute="leading" secondItem="xqi-BI-jyH" secondAttribute="trailing" constant="12" id="Vka-OR-BaR"/>
+                            <constraint firstItem="ffr-9Z-Z44" firstAttribute="top" secondItem="zlg-IW-Kpa" secondAttribute="top" id="XNH-PS-u14"/>
+                            <constraint firstAttribute="bottom" secondItem="ffr-9Z-Z44" secondAttribute="bottom" id="ZFH-xv-gzJ"/>
+                            <constraint firstItem="fJo-NP-eT3" firstAttribute="top" secondItem="zlg-IW-Kpa" secondAttribute="top" id="bVa-KD-cAQ"/>
+                            <constraint firstAttribute="bottom" secondItem="fJo-NP-eT3" secondAttribute="bottom" id="f00-YY-EeD"/>
+                            <constraint firstAttribute="bottom" secondItem="7HP-l6-1Oz" secondAttribute="bottom" id="lIc-3G-2DQ"/>
+                            <constraint firstItem="Mcf-9M-7Dp" firstAttribute="centerY" secondItem="zlg-IW-Kpa" secondAttribute="centerY" id="nDh-lk-x8Q"/>
+                            <constraint firstItem="fJo-NP-eT3" firstAttribute="leading" secondItem="SO1-a7-kYS" secondAttribute="trailing" id="nbx-5J-pZr"/>
+                            <constraint firstItem="SO1-a7-kYS" firstAttribute="centerY" secondItem="zlg-IW-Kpa" secondAttribute="centerY" id="sG4-na-LVH"/>
+                            <constraint firstItem="ffr-9Z-Z44" firstAttribute="leading" secondItem="TWd-IE-bux" secondAttribute="trailing" constant="4" id="umE-js-v2F"/>
+                            <constraint firstItem="Mcf-9M-7Dp" firstAttribute="leading" secondItem="fJo-NP-eT3" secondAttribute="trailing" constant="12" id="v9O-nu-VdB"/>
+                            <constraint firstItem="xqi-BI-jyH" firstAttribute="leading" secondItem="boo-dV-FaF" secondAttribute="trailing" constant="8" id="x9t-h1-aY1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="zlg-IW-Kpa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="WtV-79-14t"/>
+                    <constraint firstItem="zlg-IW-Kpa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="eWH-Y3-nZk"/>
+                    <constraint firstAttribute="bottom" secondItem="zlg-IW-Kpa" secondAttribute="bottom" id="fY4-7m-3VH"/>
+                    <constraint firstAttribute="trailing" secondItem="zlg-IW-Kpa" secondAttribute="trailing" id="wlV-5l-gEl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblTotalBalance" destination="Mcf-9M-7Dp" id="r3a-r7-thx"/>
+                <outlet property="lblTotalIntrest" destination="SO1-a7-kYS" id="kA8-LE-1cA"/>
+                <outlet property="lblYear" destination="boo-dV-FaF" id="SGf-q7-Jgp"/>
+                <outlet property="lblYearIntrest" destination="TWd-IE-bux" id="xfw-bH-vr2"/>
+            </connections>
+            <point key="canvasLocation" x="-56.521739130434788" y="118.52678571428571"/>
+        </tableViewCell>
+    </objects>
+</document>
